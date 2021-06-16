@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap);
+/* form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    top: 200px;
+    font-family: 'Baloo Bhai', cursive;
+} */
+.paintingtext{
+    width: 400px;
+    font-family: 'Baloo Bhai', cursive;
+}
+.paintingbutton{
+    width: 550px;
+    font-family: 'Baloo Bhai', cursive;
+}
+.paintingbutton:hover{
+    color: white;
+    background-color: grey;
+    border: 2px solid grey;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Baloo Bhai', cursive;
+    /* background-color:#f8f8f8; */
+    /* color:#09091c; */
+    box-shadow: 0px 0px 15px 4px white;
+}
+.paintinglabel{
+font-family: 'Baloo Bhai', cursive;
+color: rgba(128, 128, 128, 0.877);
+}
+
+/* form.control{
+    font-family: 'Baloo Bhai', cursive; 
+} */
+#paintingdiv{
+    background-color: rgba(245, 245, 245, 0.548);
+    margin: 500px;
+    padding: 50px;
+    font-family: 'Baloo Bhai', cursive;
+    margin-top: 150px;
+    /* background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhMVFRUVFRUVFRUVFRUVFRUVFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0NGw8PGisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALEBHAMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBQQH/8QAMhABAQACAAUCAwcDBAMAAAAAAAECERIhMWHwA3FRgaEEBkFTkbHxk9HSMkLC4RMWI//EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD4zleadnl1pANjY0AOU5SkOANqlSYK4hspDA9jYVoE8R7GjmIHsbOY9z0Cdq33GvYaAuKi09ew0CdlastAz4hs7BwgVotPRUE7HF3BaA+JOzIC2VpiwC2JQNAe2vpXkxa+leQIz6kefWkAEBaBRpigCpCkVIBaVjBo5APR8IkVJATpUPQmIHJ7jRzHscxAuE+BcwO4dgY8JyL4BwgjX4JuLXh7FlJ+AMbCXlE3EE2JqrC0CdFYvhTYCNHo9EBJVoqBAqANr6XRi19LoCc5zqTz6loAchaMDkPRQ9gapUxcgHJ55FTFOly34AevY/PxEi8cATMVzATBUgHwCY/Lz2VPkP0AtXz+BvzyKxnsuYgjh88hcE8/hetC2/AGeURl51bcKbgDC4jgXcO6aDPLFNxaZfJnQTS885KKwE2Fo00CSqwrAToaAAaa+l0Y2tfS6Azz60QZdaUBQBygIYitgMV41O1QFRUTFgcXjERpPPNgrRyCXzyrxoDh9hI1g885gnFcvsJTkoJia0v89U+p55sGei0vn5/Kb55sGeURY0yvnlK2gxyjOvRkyyoItTlVVNBNTVbRQIqZARHsAmtfS6M2vpZcgZZ9aSs+oAjgVKBQzhgUXiUi8YC5FSFji0gFIvGe4xxnml4wBIvH5jH2aS9gTJ7nz7tMfY5j2/YEY33aY49zmPZc9Pygizz+EXHtfq34Nfh+ycsZ8Aee4+6eHzm2uM80nIHnsTl821vZGV7Awy2zrfL2Z5TsDLfuWu67E3EGdTY0sTYDOwl1NBJK2QJrT0uiK19LoDPLqWjz6kAOUHAOVUpHAVtUqIqA0i4zmmmN82C8VyIx+TTHQCbaTJPL4NMdAvGtMbUSRU7fuCt1e2cs8quXlA7PORZ2lLPKW/NgmxnnPm0t9qi68oMbtFya5J5AzyqMrV5aZ5Ai1FVajICTT2VBNiaqlQRsbMATb0ujFr6XQEZdUw8rzo2AOUtgFSq2iKgKi4mLgKlXhWcXKDWVpL55WWNacQKlXM2cyOUHoxz80fEyx91yg1mStoxVfcC2Jkm+5XMDyy88rPK+eVfF5tGeYM8skXM8smeVAZZM8qq+6QTajJdRkDOjYpbAtpqtptBOxsEA219Loxbel0BGd51J5dSA9nCALlNBguaOJi8QXhWuN85sVT3Btv3+v9jl85s5WmNgKxy+O/q1xy85seSpQeiZb+P1G/jz/VjvscoNeR785/2Z4tIC5l3v1O5XX8sbkXzBWeXv9f7M8sr3+o4p8CtnwBNy7/uOL3+qcrEWgrLzqyzsGVRQKp2oqBFlSqaBVNqioJGxSANfS6Ma19LoDPLrRBl1pAoJOAqQ9Fs9gcXGcqoDSGiHsGkrSVhKuUG0VGG145dwbyFrzyImU7Di7wGsVMu98+TCZd1bnYGu6nPki1OVBexvzyMtlcgXkmotFoDKIsO3uzuQHSpEASaQBEKALQACxp6OPJk19K8gZ59SVneadgYLZ7AxoSnACpSOUFQ4Wz2ByqieI+IFxXNlMlTLuDSEWznuB7vm1zJntUyBWxbU8fnIXLuA2RXNNzA00uIuIBlEVVpWAkbGxaBUqeytBIotK0AQ2AFjT0pyZtvSnIGWXUjz6kAAOAIcIwB7IAratoOAuDZHsB+pzfcjgKlOVIBWz40DYL4hcu/7o2ICtlaRbAv1HMACFOpoDZbBANkNigE12sfut9ssl/8AFrcl1c/Tl5zfOXLkL91ftn5U/qel/kDiG7H/AKv9r/Ln9T0v8uxz7r/a/wAuf1PS/Hp/uBxmvpdHUn3W+1/lTn0/+npf5N/Q+6f2yzc9Lft6np3/AJA4vqM4YACAADoADFcAA6eIAHmUAAVUAAQZGAPFUAAslYAAyyMAEigAUTeoAGDAIpep/pvsQB9vw6T2n7KgAGn/AKAAKhAH/9k=); */
+color: whitesmoke;
+}
+#paintingh1{
+    font-family: 'Baloo Bhai', cursive;
+    color: rgb(128, 128, 128);
+}
+#paintingouterdiv{
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(https://c1.wallpaperflare.com/preview/489/251/700/background-eco-fur-minimalism.jpg) no-repeat center center/cover;
+  -webkit-background-size:cover;
+  -moz-backface-size:cover ;
+  -o-background-size: cover ;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  font-family: 'Baloo Bhai', cursive;
+
+}
+#paintingh3{
+    color: black;
+}
+#paintingimg{
+    width: 30vw;
+    height: 30vh;
+}
+
+@media (max-width:767px) {
+
+    #paintingdiv{
+        width:90vw;
+    }
+   .paintingtext{
+      width:60vw;
+    }
+    .paintingbutton{
+        width:60vw;
+    }
+    #paintingh{
+        font-size: 20px;
+        text-align: center;
+    }
+}
